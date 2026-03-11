@@ -1,0 +1,18 @@
+{
+  "name": "gym-project",
+  "version": "1.0.0",
+  "description": "Um sistema web criado para ajudar pessoas que treinam a **acompanhar sua evolução física de forma simples e rápida**.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+  "test": "jest"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}

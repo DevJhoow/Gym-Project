@@ -1,0 +1,77 @@
+body{
+    background:#111;
+    color:white;
+    margin:0;
+    padding-bottom:60px;
+}
+
+/* NAVBAR */
+.gym-navbar{
+    background:#000;
+    border-bottom:3px solid #ffc107;
+}
+
+/* LINKS */
+.nav-link{
+    color:white !important;
+    font-weight:500;
+}
+
+.nav-link:hover{
+    color:#ffc107 !important;
+}
+
+/* FOOTER */
+.gym-footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:60px;
+    background:#000;
+    border-top:3px solid #ffc107;
+    display:flex;
+    align-items:center;
+}
+
+.cards-home{
+    padding:80px 0;
+}
+
+/* LINK */
+.gym-card-link{
+    text-decoration:none;
+}
+
+/* CARD 3D */
+.gym-card-3d{
+    width:260px;
+    height:260px;
+    background:#1a1a1a;
+    border:2px solid #ffc107;
+    border-radius:15px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    box-shadow:0 10px 25px rgba(0,0,0,0.5);
+    transition:all 0.3s ease;
+}
+
+/* HOVER 3D */
+.gym-card-3d:hover{
+    transform:translateY(-10px) scale(1.05);
+    box-shadow:0 20px 40px rgba(0,0,0,0.7);
+    border-color:#ffd84d;
+}
+
+/* TITULO */
+.gym-card-3d h3{
+    color:#ffc107;
+    margin-bottom:10px;
+}
+
+[onclick]{
+  cursor: pointer;
+}

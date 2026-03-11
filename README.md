@@ -1,5 +1,7 @@
 # 🏋️ Gym Project
 
+[![CI Gym Project](https://github.com/DevJhoow/Gym-Project/actions/workflows/ci.yml/badge.svg)](https://github.com/DevJhoow/Gym-Project/actions/workflows/ci.yml)
+
 Um sistema web criado para ajudar pessoas que treinam a **acompanhar sua evolução física de forma simples e rápida**.
 
 A ideia do projeto é aplicar na prática os conhecimentos de **JavaScript**, organizando tudo em um único projeto que evolui conforme novos conceitos são aprendidos.

@@ -7,12 +7,25 @@
     "test": "test"
   },
   "scripts": {
-  "test": "jest"
-},
+    "test": "jest"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^30.3.0"
+  },
+  "mcpServers": {
+    "RapidAPI Hub - Exercise DB Fitness Workout Gym": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://mcp.rapidapi.com",
+        "--header",
+        "x-api-host: exercise-db-fitness-workout-gym.p.rapidapi.com",
+        "--header",
+        "x-api-key: 2eaf0cd17cmsh3cdc141c92eb5f5p196f26jsna65d754b84ff"
+      ]
+    }
   }
 }

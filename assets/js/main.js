@@ -176,3 +176,50 @@ window.onload = function () {
     }
 
 }
+
+async function testarAPI() {
+
+    const resposta = await fetch(
+        "https://exercisedb.p.rapidapi.com/exercises?limit=3",
+        {
+            method: "GET",
+            headers: {
+                "X-RapidAPI-Key": "2eaf0cd17cmsh3cdc141c92eb5f5p196f26jsna65d754b84ff",
+                "X-RapidAPI-Host": "exercisedb.p.rapidapi.com"
+            }
+        }
+    )
+
+    const dados = await resposta.json()
+
+    const resultado = document.getElementById("exercicios")
+
+    resultado.innerHTML = ""
+
+    dados.forEach(exercicio => {
+
+        resultado.innerHTML += `
+           <div class="card-exercicio">
+
+    <img src="${exercicio.gifUrl}" class="gif-exercicio">
+
+        <div class="info-exercicio">
+
+            <h6>${exercicio.name}</h6>
+
+            <p>
+                <i class="bi bi-bullseye"></i>
+                ${exercicio.target}
+            </p>
+
+            <p>
+                <i class="bi bi-tools"></i>
+                ${exercicio.equipment}
+            </p>
+
+        </div>
+        `
+
+    })
+
+}

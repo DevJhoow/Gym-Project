@@ -1,8 +1,21 @@
 body{
-    background:#111;
+
+    background-image: url("../img/home.png");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+
+    
+
+    /* background:#111;
     color:white;
     margin:0;
-    padding-bottom:60px;
+    padding-bottom:60px; */
 }
 
 /* NAVBAR */
@@ -40,6 +53,23 @@ body{
 /* LINK */
 .gym-card-link{
     text-decoration:none;
+}
+
+.titulo-login{
+
+    color: rgb(137, 133, 220);
+
+    font-weight: 800;
+
+    text-shadow:
+        3px 3px 6px rgba(0,0,0,0.9),
+        0px 0px 15px rgba(255,255,255,0.5);
+
+    letter-spacing: 1px;
+}
+
+.nao-tem-conta {
+    color:aliceblue;
 }
 
 /* CARD 3D */
